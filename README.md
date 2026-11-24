@@ -25,6 +25,6 @@ Karena lisensi dataset berada di bawah hak cipta penulis asli (*© Original Auth
 * `reports/`: Kumpulan grafik visualisasi hasil eksplorasi data, perbandingan Elbow-Silhouette, dan evaluasi cluster.
 
 ## Pernyataan Penggunaan AI
-* **Alat yang dipakai:** Google Gemini.
+* **Alat yang dipakai:** Google Gemini Pro 4 Neon.
 * **Bagian yang dibantu:** Penyusunan struktur kode Python untuk eksplorasi data (EDA), perbandingan metrik Elbow dan Silhouette Score, serta kerangka narasi interpretasi profil cluster berbasis alur CRISP-DM.
 * **Cara pemeriksaan hasil:** Seluruh kode dijalankan secara mandiri di Google Colab (`Runtime -> Run all`), parameter `SEED = 543` (tiga digit terakhir NIM) dan `StandardScaler` diverifikasi langsung terhadap output statistik aktual dataset `tourism_with_id.csv`.
